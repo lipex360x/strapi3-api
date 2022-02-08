@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_page_section_agenda",
+  "info": {
+    "name": "Section Agenda",
+    "icon": "angle-double-up"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "text1": {
+      "type": "text",
+      "required": true
+    },
+    "text2": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

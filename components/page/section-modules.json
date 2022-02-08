@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_section_modules",
+  "info": {
+    "name": "Section Modules",
+    "icon": "american-sign-language-interpreting"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "modules": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.modules"
+    }
+  }
+}

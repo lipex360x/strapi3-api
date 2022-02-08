@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_page_princing_boxes",
+  "info": {
+    "name": "Princing Box",
+    "icon": "backspace",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "totalPrice": {
+      "type": "integer",
+      "required": true,
+      "default": 699
+    },
+    "numberInstallments": {
+      "type": "integer",
+      "default": 6,
+      "required": true
+    },
+    "priceInstallment": {
+      "type": "integer",
+      "default": 66,
+      "required": true
+    },
+    "benefits": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.benefits"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.button",
+      "required": true
+    }
+  }
+}

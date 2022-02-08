@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_component_benefits",
+  "info": {
+    "name": "Benefits",
+    "icon": "air-freshener"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

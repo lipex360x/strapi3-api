@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_component_social_medias",
+  "info": {
+    "name": "Social Media",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "title": {
+      "type": "enumeration",
+      "enum": [
+        "facebook",
+        "twitter",
+        "dribble"
+      ]
+    }
+  }
+}

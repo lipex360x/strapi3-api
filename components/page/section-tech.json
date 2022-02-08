@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_section_teches",
+  "info": {
+    "name": "Section Tech",
+    "icon": "align-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "techs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.tech",
+      "required": true
+    }
+  }
+}

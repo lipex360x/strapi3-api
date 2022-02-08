@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_page_section_headers",
+  "info": {
+    "name": "Section Header",
+    "icon": "bars"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}
